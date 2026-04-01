@@ -40,5 +40,5 @@ app.use((req: Request, res: Response) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🔥 ZepKit server running on http://localhost:${PORT}`);
+  console.log(`ZepKit server running on http://localhost:${PORT}`);
 });
